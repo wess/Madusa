@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082D03C418E486B70054015B /* NSArray+Madusa.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E10A18E45B1300237941 /* NSArray+Madusa.m */; };
 		08A2E0E318E45AE900237941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0E218E45AE900237941 /* Foundation.framework */; };
 		08A2E0E818E45AE900237941 /* Madusa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08A2E0E718E45AE900237941 /* Madusa.h */; };
-		08A2E0EA18E45AE900237941 /* Madusa.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E0E918E45AE900237941 /* Madusa.m */; };
 		08A2E0F118E45AE900237941 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0F018E45AE900237941 /* XCTest.framework */; };
 		08A2E0F218E45AE900237941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0E218E45AE900237941 /* Foundation.framework */; };
 		08A2E0F418E45AE900237941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0F318E45AE900237941 /* UIKit.framework */; };
 		08A2E0F718E45AE900237941 /* libMadusa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0DF18E45AE900237941 /* libMadusa.a */; };
 		08A2E0FD18E45AE900237941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08A2E0FB18E45AE900237941 /* InfoPlist.strings */; };
 		08A2E0FF18E45AE900237941 /* MadusaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E0FE18E45AE900237941 /* MadusaTests.m */; };
+		08A2E10B18E45B1300237941 /* NSArray+Madusa.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E10A18E45B1300237941 /* NSArray+Madusa.m */; };
+		08F1CB7718E4834A008B26F7 /* NSArray+Madusa.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A2E10918E45B1300237941 /* NSArray+Madusa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1CB7818E4834C008B26F7 /* MedusaConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A2E10C18E4780600237941 /* MedusaConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1CB7918E48350008B26F7 /* MedusaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1CB7018E47F61008B26F7 /* MedusaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1CB7A18E48353008B26F7 /* Madusa.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A2E0E718E45AE900237941 /* Madusa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1CB7B18E48486008B26F7 /* NSArray+Madusa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08A2E10918E45B1300237941 /* NSArray+Madusa.h */; };
+		08F1CB7C18E48486008B26F7 /* MedusaConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08A2E10C18E4780600237941 /* MedusaConstants.h */; };
+		08F1CB7D18E48486008B26F7 /* MedusaTypes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08F1CB7018E47F61008B26F7 /* MedusaTypes.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				08F1CB7B18E48486008B26F7 /* NSArray+Madusa.h in CopyFiles */,
+				08F1CB7C18E48486008B26F7 /* MedusaConstants.h in CopyFiles */,
+				08F1CB7D18E48486008B26F7 /* MedusaTypes.h in CopyFiles */,
 				08A2E0E818E45AE900237941 /* Madusa.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,13 +57,16 @@
 		08A2E0E218E45AE900237941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08A2E0E618E45AE900237941 /* Madusa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Madusa-Prefix.pch"; sourceTree = "<group>"; };
 		08A2E0E718E45AE900237941 /* Madusa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Madusa.h; sourceTree = "<group>"; };
-		08A2E0E918E45AE900237941 /* Madusa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Madusa.m; sourceTree = "<group>"; };
 		08A2E0EF18E45AE900237941 /* MadusaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadusaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A2E0F018E45AE900237941 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		08A2E0F318E45AE900237941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		08A2E0FA18E45AE900237941 /* MadusaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadusaTests-Info.plist"; sourceTree = "<group>"; };
 		08A2E0FC18E45AE900237941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08A2E0FE18E45AE900237941 /* MadusaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadusaTests.m; sourceTree = "<group>"; };
+		08A2E10918E45B1300237941 /* NSArray+Madusa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Madusa.h"; sourceTree = "<group>"; };
+		08A2E10A18E45B1300237941 /* NSArray+Madusa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Madusa.m"; sourceTree = "<group>"; };
+		08A2E10C18E4780600237941 /* MedusaConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedusaConstants.h; sourceTree = "<group>"; };
+		08F1CB7018E47F61008B26F7 /* MedusaTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedusaTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +124,8 @@
 		08A2E0E418E45AE900237941 /* Madusa */ = {
 			isa = PBXGroup;
 			children = (
+				08A2E10818E45B0700237941 /* NSArray */,
 				08A2E0E718E45AE900237941 /* Madusa.h */,
-				08A2E0E918E45AE900237941 /* Madusa.m */,
 				08A2E0E518E45AE900237941 /* Supporting Files */,
 			);
 			path = Madusa;
@@ -120,7 +134,9 @@
 		08A2E0E518E45AE900237941 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08A2E10C18E4780600237941 /* MedusaConstants.h */,
 				08A2E0E618E45AE900237941 /* Madusa-Prefix.pch */,
+				08F1CB7018E47F61008B26F7 /* MedusaTypes.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,7 +159,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		08A2E10818E45B0700237941 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E10918E45B1300237941 /* NSArray+Madusa.h */,
+				08A2E10A18E45B1300237941 /* NSArray+Madusa.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08F1CB7618E48346008B26F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F1CB7718E4834A008B26F7 /* NSArray+Madusa.h in Headers */,
+				08F1CB7818E4834C008B26F7 /* MedusaConstants.h in Headers */,
+				08F1CB7918E48350008B26F7 /* MedusaTypes.h in Headers */,
+				08F1CB7A18E48353008B26F7 /* Madusa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		08A2E0DE18E45AE900237941 /* Madusa */ = {
@@ -153,6 +192,7 @@
 				08A2E0DB18E45AE900237941 /* Sources */,
 				08A2E0DC18E45AE900237941 /* Frameworks */,
 				08A2E0DD18E45AE900237941 /* CopyFiles */,
+				08F1CB7618E48346008B26F7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -189,6 +229,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Wess Cope";
+				TargetAttributes = {
+					08A2E0EE18E45AE900237941 = {
+						TestTargetID = 08A2E0DE18E45AE900237941;
+					};
+				};
 			};
 			buildConfigurationList = 08A2E0DA18E45AE800237941 /* Build configuration list for PBXProject "Madusa" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A2E0EA18E45AE900237941 /* Madusa.m in Sources */,
+				08A2E10B18E45B1300237941 /* NSArray+Madusa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082D03C418E486B70054015B /* NSArray+Madusa.m in Sources */,
 				08A2E0FF18E45AE900237941 /* MadusaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +411,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MadusaTests/MadusaTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -381,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Madusa/Madusa-Prefix.pch";
 				INFOPLIST_FILE = "MadusaTests/MadusaTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -405,6 +453,7 @@
 				08A2E10418E45AE900237941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08A2E10518E45AE900237941 /* Build configuration list for PBXNativeTarget "MadusaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +462,7 @@
 				08A2E10718E45AE900237941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

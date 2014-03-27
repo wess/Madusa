@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 Wess Cope. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface Madusa : NSObject
-
-@end
+#ifndef _MEDUSA_H
+#define _MEDUSA_H
+#import "MadusaConstants.h"
+#import "MadusaTypes.h"
+#import "NSArray+Madusa.h"
+#endif

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSArray+Madusa.h"
 
 @interface MadusaTests : XCTestCase
 
@@ -14,21 +15,38 @@
 
 @implementation MadusaTests
 
-- (void)setUp
+- (void)testFilter
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    NSArray *array = @[@"foo", @"bar", @"baz"];
+    
+    array = array.filter(^BOOL(NSString *str) {
+        return ![str isEqualToString:@"bar"];
+    });
+    
+    XCTAssertFalse([array containsObject:@"bar"], @"Filter should not contain string");
 }
 
-- (void)tearDown
+- (void)testMap
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+    NSArray *array = @[@"foo"];
+
+    array = array.map(^id(NSString *string) {
+        return [string uppercaseString];
+    });
+    
+    NSString *foo = [array firstObject];
+    XCTAssertTrue([foo isEqualToString:@"FOO"], @"Map result should contain a string with app caps");
 }
 
-- (void)testExample
+- (void)testReduce
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSArray *array = @[@"foo", @"bar", @"baz"];
+
+    NSString *result = array.reduce(@"world", ^id(NSString *sum, NSString *obj){
+        return [NSString stringWithFormat:@"%@.%@", sum, obj];
+    });
+    
+    XCTAssertTrue([result isEqualToString:@"world.foo.bar.baz"], @"Reduce must return the result of the block hander");
 }
 
 @end
