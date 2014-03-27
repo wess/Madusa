@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A2E0E318E45AE900237941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0E218E45AE900237941 /* Foundation.framework */; };
+		08A2E0E818E45AE900237941 /* Madusa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08A2E0E718E45AE900237941 /* Madusa.h */; };
+		08A2E0EA18E45AE900237941 /* Madusa.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E0E918E45AE900237941 /* Madusa.m */; };
+		08A2E0F118E45AE900237941 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0F018E45AE900237941 /* XCTest.framework */; };
+		08A2E0F218E45AE900237941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0E218E45AE900237941 /* Foundation.framework */; };
+		08A2E0F418E45AE900237941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0F318E45AE900237941 /* UIKit.framework */; };
+		08A2E0F718E45AE900237941 /* libMadusa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A2E0DF18E45AE900237941 /* libMadusa.a */; };
+		08A2E0FD18E45AE900237941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08A2E0FB18E45AE900237941 /* InfoPlist.strings */; };
+		08A2E0FF18E45AE900237941 /* MadusaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A2E0FE18E45AE900237941 /* MadusaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A2E0F518E45AE900237941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A2E0D718E45AE800237941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A2E0DE18E45AE900237941;
+			remoteInfo = Madusa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08A2E0DD18E45AE900237941 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				08A2E0E818E45AE900237941 /* Madusa.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08A2E0DF18E45AE900237941 /* libMadusa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMadusa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A2E0E218E45AE900237941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08A2E0E618E45AE900237941 /* Madusa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Madusa-Prefix.pch"; sourceTree = "<group>"; };
+		08A2E0E718E45AE900237941 /* Madusa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Madusa.h; sourceTree = "<group>"; };
+		08A2E0E918E45AE900237941 /* Madusa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Madusa.m; sourceTree = "<group>"; };
+		08A2E0EF18E45AE900237941 /* MadusaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadusaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A2E0F018E45AE900237941 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08A2E0F318E45AE900237941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08A2E0FA18E45AE900237941 /* MadusaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadusaTests-Info.plist"; sourceTree = "<group>"; };
+		08A2E0FC18E45AE900237941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08A2E0FE18E45AE900237941 /* MadusaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadusaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A2E0DC18E45AE900237941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2E0E318E45AE900237941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A2E0EC18E45AE900237941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2E0F718E45AE900237941 /* libMadusa.a in Frameworks */,
+				08A2E0F118E45AE900237941 /* XCTest.framework in Frameworks */,
+				08A2E0F418E45AE900237941 /* UIKit.framework in Frameworks */,
+				08A2E0F218E45AE900237941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A2E0D618E45AE800237941 = {
+			isa = PBXGroup;
+			children = (
+				08A2E0E418E45AE900237941 /* Madusa */,
+				08A2E0F818E45AE900237941 /* MadusaTests */,
+				08A2E0E118E45AE900237941 /* Frameworks */,
+				08A2E0E018E45AE900237941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A2E0E018E45AE900237941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0DF18E45AE900237941 /* libMadusa.a */,
+				08A2E0EF18E45AE900237941 /* MadusaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A2E0E118E45AE900237941 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0E218E45AE900237941 /* Foundation.framework */,
+				08A2E0F018E45AE900237941 /* XCTest.framework */,
+				08A2E0F318E45AE900237941 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08A2E0E418E45AE900237941 /* Madusa */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0E718E45AE900237941 /* Madusa.h */,
+				08A2E0E918E45AE900237941 /* Madusa.m */,
+				08A2E0E518E45AE900237941 /* Supporting Files */,
+			);
+			path = Madusa;
+			sourceTree = "<group>";
+		};
+		08A2E0E518E45AE900237941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0E618E45AE900237941 /* Madusa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A2E0F818E45AE900237941 /* MadusaTests */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0FE18E45AE900237941 /* MadusaTests.m */,
+				08A2E0F918E45AE900237941 /* Supporting Files */,
+			);
+			path = MadusaTests;
+			sourceTree = "<group>";
+		};
+		08A2E0F918E45AE900237941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A2E0FA18E45AE900237941 /* MadusaTests-Info.plist */,
+				08A2E0FB18E45AE900237941 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A2E0DE18E45AE900237941 /* Madusa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A2E10218E45AE900237941 /* Build configuration list for PBXNativeTarget "Madusa" */;
+			buildPhases = (
+				08A2E0DB18E45AE900237941 /* Sources */,
+				08A2E0DC18E45AE900237941 /* Frameworks */,
+				08A2E0DD18E45AE900237941 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Madusa;
+			productName = Madusa;
+			productReference = 08A2E0DF18E45AE900237941 /* libMadusa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		08A2E0EE18E45AE900237941 /* MadusaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A2E10518E45AE900237941 /* Build configuration list for PBXNativeTarget "MadusaTests" */;
+			buildPhases = (
+				08A2E0EB18E45AE900237941 /* Sources */,
+				08A2E0EC18E45AE900237941 /* Frameworks */,
+				08A2E0ED18E45AE900237941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A2E0F618E45AE900237941 /* PBXTargetDependency */,
+			);
+			name = MadusaTests;
+			productName = MadusaTests;
+			productReference = 08A2E0EF18E45AE900237941 /* MadusaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A2E0D718E45AE800237941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wess Cope";
+			};
+			buildConfigurationList = 08A2E0DA18E45AE800237941 /* Build configuration list for PBXProject "Madusa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A2E0D618E45AE800237941;
+			productRefGroup = 08A2E0E018E45AE900237941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A2E0DE18E45AE900237941 /* Madusa */,
+				08A2E0EE18E45AE900237941 /* MadusaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A2E0ED18E45AE900237941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2E0FD18E45AE900237941 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A2E0DB18E45AE900237941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2E0EA18E45AE900237941 /* Madusa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A2E0EB18E45AE900237941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A2E0FF18E45AE900237941 /* MadusaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A2E0F618E45AE900237941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A2E0DE18E45AE900237941 /* Madusa */;
+			targetProxy = 08A2E0F518E45AE900237941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08A2E0FB18E45AE900237941 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A2E0FC18E45AE900237941 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A2E10018E45AE900237941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08A2E10118E45AE900237941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A2E10318E45AE900237941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Madusa.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madusa/Madusa-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		08A2E10418E45AE900237941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Madusa.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madusa/Madusa-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08A2E10618E45AE900237941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madusa/Madusa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MadusaTests/MadusaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08A2E10718E45AE900237941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Madusa/Madusa-Prefix.pch";
+				INFOPLIST_FILE = "MadusaTests/MadusaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A2E0DA18E45AE800237941 /* Build configuration list for PBXProject "Madusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A2E10018E45AE900237941 /* Debug */,
+				08A2E10118E45AE900237941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A2E10218E45AE900237941 /* Build configuration list for PBXNativeTarget "Madusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A2E10318E45AE900237941 /* Debug */,
+				08A2E10418E45AE900237941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08A2E10518E45AE900237941 /* Build configuration list for PBXNativeTarget "MadusaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A2E10618E45AE900237941 /* Debug */,
+				08A2E10718E45AE900237941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A2E0D718E45AE800237941 /* Project object */;
+}
